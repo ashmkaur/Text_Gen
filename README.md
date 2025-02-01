@@ -58,6 +58,9 @@ This generates `output.csv` with the TOPSIS ranking of the models.
 ## Output file
 ![image](https://github.com/user-attachments/assets/5165f1b9-c0d7-4fb4-aaab-112b9d59b2b6)
 
+## Model comparision for Text Generating Models
+![topsis_models_comparison](https://github.com/user-attachments/assets/d6a1b84e-c2ed-44ff-91f8-e1280f0b0c38)
+
 ## Authors
 - **Abhaijeet Singh** (asingh37_be22@thapar.edu)
 
