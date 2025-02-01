@@ -47,7 +47,7 @@ This generates `model_comparison_results.csv` with model performance scores.
 
 ### 3. Apply TOPSIS
 ```sh
-python -m 102217186_abhaijeet_topsis model_comparison_results.csv "0.25,0.20,0.15,0.15,0.15,0.10" "+,+,+,+,+,-" output.csv
+python -m 102217186_abhaijeet_topsis "model_comparison_results.csv" "0.25,0.20,0.15,0.15,0.15,0.10" "+,+,+,+,+,-" "output.csv"
 ```
 This generates `output.csv` with the TOPSIS ranking of the models.
 
