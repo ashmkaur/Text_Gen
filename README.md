@@ -36,7 +36,7 @@ The models are evaluated based on the following metrics:
 ### 1. Install Required Dependencies
 ```sh
 pip install transformers rouge-score numpy scikit-learn pandas topsis-python
-pip install 102217186_abhaijeet_topsis==1.2.0
+pip install 102217211_ashmeet_topsis==1.2.0
 ```
 
 ### 2. Run Model Evaluation
@@ -47,7 +47,7 @@ This generates `model_comparison_results2.csv` with model performance scores.
 
 ### 3. Apply TOPSIS
 ```sh
-python -m 102217186_abhaijeet_topsis "model_comparison_results2.csv" "0.25,0.20,0.15,0.15,0.15,0.10" "+,+,+,+,+,-" "model_topsis_results2"
+python -m 102217211_ashmeet_topsis "model_comparison_results2.csv" "0.25,0.20,0.15,0.15,0.15,0.10" "+,+,+,+,+,-" "model_topsis_results2"
 ```
 This generates `model_topsis_results2` with the TOPSIS ranking of the models.
 
@@ -63,7 +63,7 @@ This generates `model_topsis_results2` with the TOPSIS ranking of the models.
 ![topsis_models_comparison](https://github.com/user-attachments/assets/d6a1b84e-c2ed-44ff-91f8-e1280f0b0c38)
 
 ## Authors
-- **Abhaijeet Singh** (akaur9_be22@thapar.edu)
+- **Ashmeet Kaur** (akaur9_be22@thapar.edu)
 
 ## License
 This project is licensed under the MIT License.
