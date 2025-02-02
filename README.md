@@ -43,17 +43,17 @@ pip install 102217186_abhaijeet_topsis==1.0.0
 ```sh
 python Model_comparision_TextGeneration.ipynb
 ```
-This generates `model_comparison_results.csv` with model performance scores.
+This generates `model_comparison_results2.csv` with model performance scores.
 
 ### 3. Apply TOPSIS
 ```sh
-python -m 102217186_abhaijeet_topsis "model_comparison_results.csv" "0.25,0.20,0.15,0.15,0.15,0.10" "+,+,+,+,+,-" "output.csv"
+python -m 102217186_abhaijeet_topsis "model_comparison_results2.csv" "0.25,0.20,0.15,0.15,0.15,0.10" "+,+,+,+,+,-" "model_topsis_results2"
 ```
-This generates `output.csv` with the TOPSIS ranking of the models.
+This generates `model_topsis_results2` with the TOPSIS ranking of the models.
 
 ## Output
-- **`model_comparison_results.csv`** → Contains raw evaluation results.
-- **`output.csv`** → Contains final rankings using TOPSIS.
+- **`model_comparison_results2.csv`** → Contains raw evaluation results.
+- **`model_topsis_results2.csv`** → Contains final rankings using TOPSIS.
 
 ## Output file
 ![image](https://github.com/user-attachments/assets/f30487b4-0b81-4a64-9cf7-f4aa8c2dd2e8)
