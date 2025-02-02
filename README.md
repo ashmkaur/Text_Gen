@@ -63,7 +63,7 @@ This generates `model_topsis_results2` with the TOPSIS ranking of the models.
 ![topsis_models_comparison](https://github.com/user-attachments/assets/d6a1b84e-c2ed-44ff-91f8-e1280f0b0c38)
 
 ## Authors
-- **Abhaijeet Singh** (asingh37_be22@thapar.edu)
+- **Abhaijeet Singh** (akaur9_be22@thapar.edu)
 
 ## License
 This project is licensed under the MIT License.
