@@ -36,7 +36,7 @@ The models are evaluated based on the following metrics:
 ### 1. Install Required Dependencies
 ```sh
 pip install transformers rouge-score numpy scikit-learn pandas topsis-python
-pip install 102217186_abhaijeet_topsis==1.0.0
+pip install 102217186_abhaijeet_topsis==1.2.0
 ```
 
 ### 2. Run Model Evaluation
